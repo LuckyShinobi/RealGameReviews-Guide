@@ -1,14 +1,11 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+title: 'Azure Guide'
+description: 'A Quick guide to setting up azure'
+pubDate: 'Jun 19 2024'
+heroImage: '/blog-placeholder-2.jpg'
 ---
 
-<Layout
-	title="Info Page"
-	description="Real Game Reviews & Guides"
-	pubDate={new Date('June 19 2024')}
-	heroImage="/blog-placeholder-about.jpg"
->
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,7 +54,7 @@ import Layout from '../layouts/BlogPost.astro';
     ```
 5. **Add Remote**: Add the Azure remote repository.
     ```sh
-    git remote add azure 'YOUR_GIT_CLONE_URL'
+    git remote add azure <YOUR_GIT_CLONE_URL>
     ```
 6. **Deploy**: Commit your changes and push to Azure.
     ```sh
@@ -87,7 +84,7 @@ import Layout from '../layouts/BlogPost.astro';
 
 ### Step 8: Access Your Web App
 
-1. **Browse to Your App**: After deployment, you can access your web app using the URL provided in the Azure portal (e.g., `https://'YOUR_APP_NAME'.azurewebsites.net`).
+1. **Browse to Your App**: After deployment, you can access your web app using the URL provided in the Azure portal (e.g., `https://<YOUR_APP_NAME>.azurewebsites.net`).
 
 ### Additional Resources
 
@@ -96,7 +93,4 @@ import Layout from '../layouts/BlogPost.astro';
 - **Azure SDKs**: Integrate Azure services into your application using various SDKs provided by Azure.
 
 </body>
-
-
-
-</Layout>
+</html>
