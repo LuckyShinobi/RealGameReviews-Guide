@@ -3,11 +3,11 @@
     <channel>
         <title>Astro Blog</title>
         <description>Welcome to my website!</description>
-        <link>https://example.com/RealGameReviews-Guide/</link>
+        <link>https://example.com/</link>
         <item>
             <title>Azure Guide</title>
-            <link>https://example.com/RealGameReviews-Guide/blog/fourthblog/</link>
-            <guid isPermaLink="true">https://example.com/RealGameReviews-Guide/blog/fourthblog/</guid>
+            <link>https://example.com/blog/fourthblog/</link>
+            <guid isPermaLink="true">https://example.com/blog/fourthblog/</guid>
             <description>A Quick guide to setting up azure</description>
             <pubDate>Wed, 19 Jun 2024 00:00:00 GMT</pubDate>
         </item>
