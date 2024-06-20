@@ -1,0 +1,19 @@
+{
+  "name": "real-game-reviews",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^3.1.1",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.6",
+    "astro": "^4.10.3",
+    "sharp": "^0.33.4"
+  }
+}
